@@ -2874,7 +2874,7 @@
 			}
 
 				#navButton .toggle {
-					text-decoration: none;
+					/* text-decoration: none; */
 					height: 60px;
 					left: 0;
 					position: absolute;
@@ -3137,7 +3137,8 @@
 		/* Banner */
 
 			#banner {
-				background-size: 10em, 10em, auto, cover;
+				/* background-size: 10em, 10em, auto, cover; */
+				background-size: auto, cover;
 				padding: 6em 0;
 			}
 
