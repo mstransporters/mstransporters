@@ -3143,9 +3143,9 @@
 			}
 
 				#banner .inner {
-					background: none;
+					background: #ffffffba;
 					display: block;
-					padding: 0 1.5em;
+					padding: 1.5em;
 				}
 
 					#banner .inner header h2 {
