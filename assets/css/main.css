@@ -2201,7 +2201,10 @@
 	}
 
 	#logo a {color: red;}
-
+	
+#header.alt #logo a {
+    color: transparent;
+}
 		#header h1 {
 			font-weight: 900;
 			margin: 0;
@@ -2235,6 +2238,7 @@
 					line-height: 1em;
 					padding: 0.6em 0.75em;
 					text-decoration: none;
+					background: white;
 				}
 
 				#header nav ul li input[type="button"],
@@ -2275,6 +2279,12 @@
 				#header nav ul li.current > a {
 					font-weight: 900;
 				}
+				
+				#header nav ul li a:hover {
+    color: white;
+    background: red;
+    border: 1px solid red;
+}
 
 		#header.reveal {
 			-moz-animation: reveal-header 0.5s;
