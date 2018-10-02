@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  background: #31315d;
 }
 
 #header.header-scrolled {
@@ -110,12 +111,17 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo h1 a, #header #logo h1 a:hover {
   color: #fff;
   padding-left: 10px;
-  border-left: 4px solid #ed1d24;
+/*   border-left: 4px solid #ed1d24; */
 }
 
 #header #logo img {
   padding: 0;
   margin: 0;
+  position: absolute;
+  top: 25px;
+  left: 35px;
+  width:auto;
+  max-height:45px;
 }
 
 @media (max-width: 768px) {
@@ -632,6 +638,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-col .img {
   position: relative;
+  max-height:222px;
+  overflow: hidden;
 }
 
 #about .about-col .img img {
