@@ -1,9 +1,6 @@
-Ms Transporters & Movers 
+Thanks for downloading this theme!
 
-Ms Transporters & Movers is a packing and removals company providing services both domestically and internationally. Established by professionals with over 15 years experience in packing and removals, we have the capaity to handle large, medium and small movers.
-
-
-Attribution:
-Based on Twenty by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Theme Name: BizPage
+Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+Author: BootstrapMade.com
+Author URL: https://bootstrapmade.com
