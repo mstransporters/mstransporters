@@ -78,14 +78,13 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-  background: #31315d;
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
+  background: #31315d;
 }
 
 #header #logo {
@@ -117,6 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  max-width: 200px;
 }
 
 @media (max-width: 768px) {
@@ -515,12 +515,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-header h3 {
   font-size: 32px;
-  color: #111;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
   position: relative;
   padding-bottom: 15px;
+  color: #0b0b54;
 }
 
 .section-header h3::before {
@@ -560,7 +560,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Featured Services Section
 --------------------------------*/
 #featured-services {
-  background: #000;
+  background: #31315d;
 }
 
 #featured-services .box {
@@ -568,7 +568,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-services .box-bg {
-  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+  background: #31315d;
 }
 
 #featured-services i {
